@@ -28,7 +28,7 @@ class LayoutTiga extends StatelessWidget {
             ),
           ],
         ),
-        SizedBox(height: 40),
+        SizedBox(height: 45),
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 20),
           child: Row(
