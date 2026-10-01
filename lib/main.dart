@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hello/latihan/Latihan3.dart';
+import 'package:hello/sized_expanded_stack/LayoutTiga.dart';
 
+// import 'package:hello/latihan/Latihan3.dart';
 // import 'package:hello/sized_expanded_stack/LayoutDua.dart';
 // import 'package:hello/sized_expanded_stack/LayoutSatu.dart';
 // import 'package:hello/sized_expanded_stack/StackWidget.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.amber,
           centerTitle: true,
         ),
-        body: Latihan3(),
+        body: LayoutTiga(),
       ),
     );
   }

@@ -10,7 +10,7 @@ class Latihan3 extends StatelessWidget {
         children: [
           Expanded(
             child: Container(
-              color: Colors.redAccent,
+              color: const Color.fromARGB(255, 254, 112, 112),
               height: 80,
               child: Center(child: Text("Pengeluaran")),
             ),
