@@ -30,30 +30,30 @@ class Latihan2 extends StatelessWidget {
           borderRadius: BorderRadius.circular(10),
         ),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text("Nama: Muhammad Radiedtya Pratama"),
                 Text("Kelas: XII RPL 1"),
                 Text("Nis: 12345"),
               ],
             ),
-            Column(
-              children: [
-                Container(
-                  height: 300,
-                  width: 200,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
-                    image: DecorationImage(
-                      image: NetworkImage(
-                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOy4l9h_d49UzFjO9V-C-_RT6ZfgukXTs9KgHk-687Ww&s=10",
-                      ),
-                    ),
+            Container(
+              height: 300,
+              width: 200,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOy4l9h_d49UzFjO9V-C-_RT6ZfgukXTs9KgHk-687Ww&s=10",
                   ),
+                  fit: BoxFit.cover,
                 ),
-              ],
+              ),
             ),
           ],
         ),
