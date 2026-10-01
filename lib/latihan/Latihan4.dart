@@ -51,7 +51,7 @@ class Latihan4 extends StatelessWidget {
                     ),
                   ],
                 ),
-                Icon(Icons.notifications, color: Colors.white),
+                Icon(Icons.notifications, color: Colors.white, size: 15),
               ],
             ),
           ),
