@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:hello/latihan/Latihan2.dart';
+import 'package:hello/latihan/Latihan3.dart';
 
+// import 'package:hello/sized_expanded_stack/LayoutDua.dart';
+// import 'package:hello/sized_expanded_stack/LayoutSatu.dart';
+// import 'package:hello/sized_expanded_stack/StackWidget.dart';
+// import 'package:hello/sized_expanded_stack/ExpandedWidget.dart';
+// import 'package:hello/sized_box/SizedBoxWidget.dart';
+// import 'package:hello/latihan/Latihan2.dart';
 // import 'package:hello/latihan/Latihan1.dart';
 // import 'package:hello/row_column/RowColumnWidget.dart';
 // import 'package:hello/container/ContainerSatu.dart';
@@ -24,14 +30,14 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.amber,
           centerTitle: true,
         ),
-        body: Latihan2(),
+        body: Latihan3(),
       ),
     );
   }
 }
 
 class HelloWidget extends StatelessWidget {
-  const new({super.key});
+  const HelloWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
